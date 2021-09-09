@@ -2,7 +2,7 @@
 Final project of  the "Physics of Complex Systems" course at University of Padua during 2020/2021
 
 ## Assignment and goal
-The purpose of this project is to implement a simulation using a programming language (Python in my case) in order to simulate two epidemic models, namely the SIS (Contact Process) and the SIR, in order to find the critical point of the phase transition and the critical exponents of the corresponding percolation universality class.
+The purpose of this project is to implement a Monte Carlo algorithm using a programming language (Python in my case) in order to simulate two epidemic models, namely the SIS (Contact Process) and the SIR. Those models can be exploited to find the critical point of the phase transition and the critical exponents of the corresponding percolation universality class.
 
 ## Simulation
 Some functions exploit **Numba** in order to speed up the computation. Refer to the `presentation.pdf` for the theoretical details concerning the simulation and the analysis.
